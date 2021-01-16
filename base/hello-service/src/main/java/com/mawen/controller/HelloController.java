@@ -3,6 +3,8 @@ package com.mawen.controller;
 import com.mawen.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -21,4 +23,8 @@ public class HelloController {
         return helloService.getHello();
     }
 
+    @PostMapping("/timeout")
+    public String timeout(@RequestParam("timeout") Long timout) {
+        return helloService.timeout(timout);
+    }
 }

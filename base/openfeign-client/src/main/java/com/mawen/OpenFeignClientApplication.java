@@ -1,6 +1,5 @@
 package com.mawen;
 
-import com.mawen.service.HelloService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -13,8 +12,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  */
 
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableFeignClients
+@EnableDiscoveryClient // 开启服务发现
+@EnableFeignClients // 开启 openfeign
 public class OpenFeignClientApplication {
 
     public static void main(String[] args) {

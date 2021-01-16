@@ -15,4 +15,16 @@ public class HelloServiceImpl implements HelloService {
     public String getHello() {
         return "Hello World!";
     }
+
+    @Override
+    public String timeout(Long timout) {
+        try {
+            Thread.sleep(timout * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "Hello World!";
+    }
+
+
 }

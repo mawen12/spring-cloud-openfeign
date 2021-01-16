@@ -16,6 +16,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/base/hello-service-advansed/pom.xml" />
+        <option value="$PROJECT_DIR$/base/store-service/pom.xml" />
       </set>
     </option>
   </component>

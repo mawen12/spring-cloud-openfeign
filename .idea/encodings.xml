@@ -4,7 +4,6 @@
     <file url="file://$PROJECT_DIR$/base/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base/hello-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base/openfeign-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base/store-service/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
